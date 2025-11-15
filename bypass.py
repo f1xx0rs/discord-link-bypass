@@ -1,3 +1,4 @@
+# ПРЕДУПРЕЖДЕНИЕ - код создан ИИ. я не умею кодить просто
 import discord, random
 from discord import app_commands
 
