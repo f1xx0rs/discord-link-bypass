@@ -7,8 +7,7 @@ from datetime import timedelta
 TOKEN = "token"
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
-# Порог: 30%+ символов — шрифты → бан
-UNICODE_RATIO = 0.3
+UNICODE_RATIO = 0.1
 
 def is_fancy_char(c):
     """Проверяет: это шрифт? (не кириллица, не латиница, не цифры, не знаки)"""
